@@ -38,7 +38,7 @@ One important consideration is minimizing the number of network requests. Rather
 
 Another consideration is the number of bytes required to send the file. Although programmers add a lot of whitespace and comments to aid development, these can be removed from the code without changing its results. Similarly, longer variable names can be renamed to shorter ones to save on size. This is called _minification._ We put one file into the minifier, and we get one smaller file out.
 
-Finally, we might want to use a particular library, but just a small piece of it. If that library is very large and we include it with a `<script>` tag, the _entire library_ will be downloaded and evaluated–most of which will be wasted effort, since we’re actually only using a small part of it. What we really want is to include the part that we’re actually using. This is called **tree-shaking**.
+Finally, we might want to use a particular library, but just a small piece of it. If that library is very large and we include it with a `<script>` tag, the _entire library_ will be downloaded and evaluated–most of which will be wasted effort, since we’re actually only using a small part of it. What we really want is to include the part that we’re actually using. This is called _tree-shaking_.
 
 ### Modularity, reusability, consistency
 
