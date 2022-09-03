@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: "Firefox scrollable elements are focusable"
-description: "An attempt to explain why we have so many JavaScript build tools now, and what problems they help solve."
+description: "Scrollable elements in Firefox can be focused with Tab or Shift-Tab, even without the tabindex attribute set."
 pubDate: "Sep 3 2022"
 tags: ["a11y"]
 ---
