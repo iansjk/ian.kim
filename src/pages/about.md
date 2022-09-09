@@ -15,8 +15,8 @@ heroImage: "/me.jpg"
 
 <img id="headshot" src="/me.jpg" alt="A photograph of myself">
 
-Hello! I‘m Ian Kim, a software engineer based out of North Carolina.
+Hello! I’m Ian Kim, a software engineer based out of North Carolina.
 
-I‘m passionate about creating better web experiences for everyone, with a particular focus on web performance and accessibility.
+I’m passionate about creating better web experiences for everyone, with a particular focus on web performance and accessibility.
 
 You can reach me at [me@ian.kim](mailto:me@ian.kim).
