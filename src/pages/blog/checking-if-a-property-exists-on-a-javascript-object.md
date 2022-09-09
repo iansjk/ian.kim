@@ -249,7 +249,7 @@ Object.prototype.hasOwnProperty.call(bar, "shouldNotExist");
 > false
 ```
 
-Since this is rather verbose and inconvenient, `Object.hasOwn` was introduced [as a replacement for `Object.prototype.hasOwnProperty`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwn#description), because it cannot be redefined:
+Since this is rather verbose and inconvenient, `Object.hasOwn` was introduced [as a replacement for `Object.prototype.hasOwnProperty`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwn#description), because it cannot be overridden:
 
 ```jsx
 const foo = {
