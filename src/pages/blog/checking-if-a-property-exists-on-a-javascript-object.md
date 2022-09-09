@@ -175,7 +175,7 @@ true
 
 So based on the above results, we can see that the following methods check if the property is present either on the object itself (an own property) or anywhere in its prototype chain (an inherited property):
 
-- `myObject[someProperty]`
+- `myObject["someProperty"]`
 - `myObject.someProperty`
 - `"someProperty" in myObject`
 
@@ -270,12 +270,12 @@ So `Object.hasOwn` allows us to avoid this potential pitfall [2]. The downside i
 
 If you’re only interested in **own properties** (in my experience, almost always what you _actually_ want):
 
-- **Use `Object.hasOwn(myObject, someProperty)`**
-- If you can’t use `Object.hasOwn` due to browser support requirements, use `Object.prototype.hasOwnProperty.call(myObject, someProperty)` instead
+- **Use `Object.hasOwn(myObject, "someProperty")`**
+- If you can’t use `Object.hasOwn` due to browser support requirements, use `Object.prototype.hasOwnProperty.call(myObject, "someProperty")` instead
 
 If you want to check **all** properties, including inherited properties, use any of the following:
 
-- `myObject[someProperty]`
+- `myObject["someProperty"]`
 - `myObject.someProperty`
 - `"someProperty" in myObject`
 
