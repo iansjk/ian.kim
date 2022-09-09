@@ -8,10 +8,10 @@ tags: ["js"]
 
 Here are the various ways to check if a property exists on an object:
 
-- `myObject.hasOwnProperty(someProperty)`
-- `Object.prototype.hasOwnProperty.call(myObject, someProperty)`
-- `Object.hasOwn(myObject, someProperty)`
-- Accessing it and checking for `undefined` or `null` (`myObject[someProperty] != null` , `myObject.someProperty != null`)
+- `myObject.hasOwnProperty("someProperty")`
+- `Object.prototype.hasOwnProperty.call(myObject, "someProperty")`
+- `Object.hasOwn(myObject, "someProperty")`
+- Accessing it and checking for `undefined` or `null` (`myObject["someProperty"] != null` , `myObject.someProperty != null`)
 - `"someProperty" in myObject`
 
 For cases where `myObject` is an object literal that we make ourselves, these methods all return the same thing:
