@@ -44,7 +44,7 @@ JavaScript has a prototype based inheritance system, where rather than having a 
 
 (Note that JavaScript as of ES5 has a notion of classes, but these are really syntactic sugar around the prototype model.)
 
-The object literal syntax `const foo = { someProperty: “someValue” }` always inherits from a prototype named `Object.prototype`; similarly,
+The object literal syntax `const foo = { someProperty: "someValue" }` always inherits from a prototype named `Object.prototype`; similarly,
 
 - array literals inherit from `Array.prototype`
 - string literals inherit from `String.prototype`
