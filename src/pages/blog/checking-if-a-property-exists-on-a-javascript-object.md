@@ -216,7 +216,7 @@ bar.hasOwnProperty("shouldNotExist");
 > true
 ```
 
-To work around the possibility of an object redefining `hasOwnProperty`, we can use `Object.prototype.hasOwnProperty.call(myObject, someProperty)` instead, which is a bit safer [1]:
+To work around the possibility of an object redefining `hasOwnProperty`, we can use `Object.prototype.hasOwnProperty.call(myObject, "someProperty")` instead, which is a bit safer [1]:
 
 ```jsx
 const foo = {
