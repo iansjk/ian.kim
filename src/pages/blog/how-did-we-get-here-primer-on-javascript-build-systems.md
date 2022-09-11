@@ -4,6 +4,10 @@ title: "“How did we get here?”–A primer on JavaScript build systems"
 description: "An attempt to explain why we have so many JavaScript build tools now, and what problems they help solve."
 pubDate: "Aug 28 2022"
 tags: ["js"]
+# feedback from others:
+# - modules need a better explanation (by analogy with something like python?)
+# - tree-shaking could use a slightly better explanation (where does the name come from?)
+# - why would we want static typing?
 ---
 
 Modern frontend development has a great deal of build complexity. If you’ve worked with a framework like React, it’s likely that you’ve had to transform your JavaScript files in one way or another before you’re able to run them in the browser. Maybe you’ve already been through the pain of configuring Webpack or Babel. What happened to writing some JavaScript, including it with a `<script>` tag, and being done with it?
