@@ -288,7 +288,7 @@ If you are positive that
 
 then indexing or `in` will also return the expected result.
 
-It should be noted that even in these cases, if `someProperty` isn’t an own property of `myObject`, indexing or using `in` will still climb up the prototype chain and check properties unnecessarily, so using `Obect.hasOwn` is preferred.
+It should be noted that even in these cases, if `someProperty` isn’t an own property of `myObject`, indexing or using `in` will still climb up the prototype chain and check properties unnecessarily, so using `Object.hasOwn` is preferred.
 
 ---
 
